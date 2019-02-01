@@ -1,0 +1,23 @@
+{
+  "name": "node.js-firebase-push-notification",
+  "version": "1.0.0",
+  "description": "Firebase Push Notification integration in node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vikasjadhav009/Node.JS-Firebase-Push-Notification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vikasjadhav009/Node.JS-Firebase-Push-Notification/issues"
+  },
+  "homepage": "https://github.com/Vikasjadhav009/Node.JS-Firebase-Push-Notification#readme",
+  "dependencies": {
+    "fcm-node": "^1.3.0"
+  }
+}
