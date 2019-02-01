@@ -3,7 +3,7 @@ var FCM = require('fcm-node');
 
 var fcmServerKey = 'YOUR_FCM_SERVER_KEY';
 
-var fcm = new FCM(serverKey);
+var fcm = new FCM(fcmServerKey);
 
 var message = {
     to: 'DEVICE_TOKEN_OF_DEVICE_WHICH_RECIVE NOTIFICATION',
